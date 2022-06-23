@@ -1,0 +1,232 @@
+--// VAMP CLIENT \\--
+
+--\\ OPEN SOURCE \\--
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/8pX9jAHw"))()
+
+--// TABS \\--
+
+local Vamp = Library:New("VAMP CLIENT | SKYWARS")
+
+local Player = Vamp:NewTab("Player")
+
+local Render = Vamp:NewTab("Render")
+
+local World = Vamp:NewTab("World")
+
+local Combat = Vamp:NewTab("Combat")
+
+local Teleports = Vamp:NewTab("Teleports")
+
+local Settings = Vamp:NewTab("Settings")
+
+--/ PLAYER \--
+
+Player:NewButton("Sprint", "Sprint", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/k6wksMhx",true))()
+
+end)
+
+Player:NewButton("Speed", "Speed", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/NYmfsgjG",true))()
+
+end)
+
+Player:NewButton("BunnyHop", "BunnyHop", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/mKeBPxVE",true))()
+
+end)
+
+Player:NewButton("JumpPower", "JumpPower", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/EDhthgNF",true))()
+
+end)
+
+Player:NewButton("AirJump", "AirJump", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/QzLF0yNL",true))()
+
+end)
+
+Player:NewButton("Fly", "Fly", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/TaTbehHr",true))()
+
+end)
+
+--/ WORLD \--
+
+World:NewButton("Nuker", "Nuker", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/xJwd7Cq8",true))()
+
+end)
+
+World:NewButton("Godmode", "Godmode", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/kQ1j7gn0",true))()
+
+end)
+
+World:NewButton("UnGodmode", "UnGodmode", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/J0UJf3Eg",true))()
+
+end)
+
+World:NewButton("Autofarm", "Autofarm", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/hqhURS7a",true))()
+
+end)
+
+World:NewButton("AutoWin", "AutoWin", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/i4ZbEjyK",true))()
+
+end)
+
+--/ COMBAT \--
+
+Combat:NewButton("EquipTools", "EquipTools", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/qT9VYRfN",true))()
+
+end)
+
+Combat:NewButton("Killaura", "Killaura", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/Vm39Stk0",true))()
+
+end)
+
+Combat:NewButton("AutoClicker", "AutoClicker", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/Tk0r5zFe",true))()
+
+end)
+
+Combat:NewButton("Hitbox", "Hitbox", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/6pbRfZzK",true))()
+
+end)
+
+--/ RENDER \--
+
+Render:NewButton("BoxEsp", "BoxEsp", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/Corner%202D%20Box%20ESP.lua", true))()
+
+end)
+
+Render:NewButton("Chams", "Chams", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/DrawingLib%20Chams.lua", true))()
+
+end)
+
+Render:NewButton("Tracers", "Tracers", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/ieaitC76", true))()
+
+end)
+
+Render:NewButton("FullBright", "FullBright", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU",true))()
+
+end)
+
+Render:NewButton("Shader", "Shader", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/70RjRGWf",true))()
+
+end)
+
+--/ TELEPORTS \--
+
+Teleports:NewButton("Lobby", "Lobby", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/kXF95A89",true))()
+
+end)
+
+Teleports:NewButton("Middle", "Middle", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/R6F4gnVV",true))()
+
+end)
+
+Teleports:NewButton("Vip", "Vip", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/GLPAvhrr",true))()
+
+end)
+
+Teleports:NewButton("Mega Vip", "Mega Vip", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/e5tnPTr1",true))()
+
+end)
+
+Teleports:NewButton("Game Store", "Game Store", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/K2j3RFPU",true))()
+
+end)
+
+Teleports:NewButton("Shop", "Shop", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/irgtZzrn",true))()
+
+end)
+
+Teleports:NewButton("Group Room", "Group Room", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/rMbMtpWj",true))()
+
+end)
+
+--/ SETTINGS \--
+
+Settings:NewButton("Anticheat Disabler", "Anticheat Disabler", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/4VaV8zbE",true))()
+
+end)
+
+Settings:NewButton("Rejoin", "Rejoin", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/VKAfvRhe",true))()
+
+end)
+
+Settings:NewButton("ServerHop", "ServerHop", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/c4KnNBz2",true))()
+
+end)
+
+--/ EXTRA LOADSTRINGS \--
+
+loadstring(game:HttpGet("https://pastebin.com/raw/1Rdzk284",true))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/KTQ8UT5Y",true))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/4VaV8zbE",true))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/rUFSqru4",true))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/cQrm6zY3",true))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/znYqRtWk",true))()
+
+Vamp:SetMainTab(Player)
+
+Vamp:SetFooter('VAMP CLIENT')
+
